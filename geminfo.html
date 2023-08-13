@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hidden Gem Information</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Enriqueta&display=swap">
+  <link rel="stylesheet" href="./css/styles.css" type="text/css">
+</head>
+<body>
+  <header>
+    <h1>Hidden Gem Information</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a> 
+      </nav>
+  </header>
+
+  <main>
+    <div id="gem-info-container">
+        <!-- Gem information and reviews will be displayed here by JavaScript -->
+      </div>
+      <div style="clear:both;"></div> <!-- Clear floating elements -->
+
+    <section id="review-section" class="review-section">
+      <h3>Leave a Review:</h3>
+      <form id="review-form" class="review-form">
+        <label for="user-name">User Name:</label>
+        <input type="text" id="user-name" name="user-name" required>
+  
+        <label for="rating">Rating:</label>
+        <div id="star-rating" class="star-rating">
+          <span class="star" data-rating="1">☆</span>
+          <span class="star" data-rating="2">☆</span>
+          <span class="star" data-rating="3">☆</span>
+          <span class="star" data-rating="4">☆</span>
+          <span class="star" data-rating="5">☆</span>
+        </div>
+        <input type="hidden" id="rating" name="rating" value="0" required>
+        
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+  
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/geminfo.js"></script>
+
+  <a href="https://students.senecacollege.ca/" target="_blank">Seneca College</a> <br />
+  <a href="https://students.senecacollege.ca/" target="_blank"
+    ><img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Seneca-logo.svg/1200px-Seneca-logo.svg.png"
+      width="200"
+      height=""
+      alt="Seneca"
+  /></a>
+  <br />
+  <label>Mail</label>
+  <a href="mailto:dzaprudskiy@myseneca.ca">dzaprudskiy@myseneca.ca</a><br />
+
+  <footer>&copy; 2023 David Zaprudskiy</footer>
+</body>
+</html>
