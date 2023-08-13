@@ -97,8 +97,8 @@
     }
     
     .gem-card img {
-      width: 450px;
-      height: 400px;
+      width: 350px;
+      height: 300px;
       border-radius: 10px;
       object-fit: cover;
     }
@@ -365,8 +365,8 @@
 
 
 
-/* Mobile Styles (max-width: 400px) */
-@media (max-width: 400px) {
+/* Mobile Styles (max-width: 500px) */
+@media (max-width: 500px) {
   /* General styles */
   body {
     font-family: 'Enriqueta', serif;
