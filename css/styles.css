@@ -8,7 +8,21 @@
     --pink-shell: #E8AA9B;
     --plum-violet: #DCD5DC;
   }
-  
+
+/* Star rating styles */
+  .stars {
+      font-size: 1.5rem;
+      color: var(--tomato-orange);
+  }
+
+  .star-filled {
+      color: var(--tomato-orange);
+  }
+
+  .star-empty {
+      color: var(--seagull-blue);
+  }
+
   @media (min-width: 501px) {  
 
     /* General styles */
@@ -206,19 +220,7 @@
     }
     
 
-  /* Star rating styles */
-  .stars {
-      font-size: 1.5rem;
-      color: var(--tomato-orange);
-  }
-
-  .star-filled {
-      color: var(--tomato-orange);
-  }
-
-  .star-empty {
-      color: var(--seagull-blue);
-  }
+  
 
 
   /* Review form section styles */
