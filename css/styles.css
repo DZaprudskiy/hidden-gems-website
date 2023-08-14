@@ -9,7 +9,7 @@
     --plum-violet: #DCD5DC;
   }
   
-  @media (min-width: 401px) {  
+  @media (min-width: 601px) {  
 
     /* General styles */
     body {
