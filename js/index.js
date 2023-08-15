@@ -2,7 +2,6 @@
 
 // Function to load gems from data.js and generate gem cards
 function loadGemsAndGenerateCards() {
-    // Assuming you have the hiddenGems array in data.js
     const gemCardsContainer = document.getElementById('cards-container');
   
     // Loop through hiddenGems and generate gem cards

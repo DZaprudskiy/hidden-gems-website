@@ -9,7 +9,7 @@
   --plum-violet: #DCD5DC;
 }
 
-@media (min-width: 551px) {  
+@media (min-width: 501px) {  
 
   /* General styles */
   body {
@@ -23,29 +23,42 @@
     margin-left: 100px;
     margin-right: 100px;
   }
-  
-  /* Header styles */
-  header {
-    font-family: 'Oswald', sans-serif;
-    background-color: var(--atomic-steel-blue);
-    background-image: url(../media/headerbackground.png);
-    background-size: cover;
-    background-position-y: center;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 4rem;
-  }
+
+  /* Logo Styles */
+.logo-container {
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Header styles */
+header {
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--atomic-steel-blue);
+  background-image: url(../media/headerbackground.png);
+  background-size: cover;
+  background-position-y: center;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  align-items: center; 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
   
   /* Navigation styles */
   nav {
     display: block;
     width: fit-content;
-    margin: 0 auto; /* Center the navigation horizontally */
+    margin: 0 auto; 
     margin-top: 20px;
     background-color: var(--seagull-blue);
     padding: 10px 0;
@@ -100,8 +113,13 @@
     height: 300px;
     border-radius: 10px;
     object-fit: cover;
+    transition: transform 0.3s ease;
   }
   
+  .gem-card img:hover {
+    transform: scale(1.05);
+  }
+    
   /* Add a container for the text under the image */
   .gem-card .text-container {
     position: absolute;
@@ -141,8 +159,8 @@
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: var(--pink-shell);
-    width: 60%; /* Take 60% of horizontal space */
-    float: left; /* Float to the left */
+    width: 60%; 
+    float: left; 
     box-sizing: border-box;
   }
   
@@ -162,8 +180,8 @@
     margin: 20px;
     padding: 20px;
     background-color: var(--pink-shell);
-    width: 30%; /* Take 30% of horizontal space */
-    float: right; /* Float to the right */
+    width: 30%;  
+    float: right; 
     box-sizing: border-box; 
   }
   
@@ -187,11 +205,11 @@
   }
   
   .username {
-    flex-grow: 1; /* Username takes all available space */
+    flex-grow: 1; 
   }
   
   .date {
-    flex-shrink: 0; /* Date doesn't shrink */
+    flex-shrink: 0; 
   }
   
   .review-comment {
@@ -365,7 +383,7 @@
 
 
 /* Mobile Styles (max-width: 500px) */
-@media (max-width: 550px) {
+@media (max-width: 500px) {
 /* General styles */
 body {
   font-family: 'Enriqueta', serif;
@@ -376,6 +394,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+  /* Logo Styles */
+.logo-container {
+  align-items: center;
+  margin-right: 20px; 
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
 
 /* Header styles */
 header {

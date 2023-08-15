@@ -180,8 +180,7 @@ const hiddenGems = [
       blurb: 'Serene Shores and Historic Elegance Await.',
       description: "Nestled on the shores of Lake Ontario, Cobourg exudes timeless charm with its pristine beaches, historic architecture, and welcoming atmosphere. Immerse yourself in the town's vibrant arts and culture scene, explore local boutiques, and indulge in lakeside dining. Whether strolling along the picturesque waterfront or discovering the town's rich heritage, Cobourg offers a captivating escape for those seeking relaxation and cultural enrichment.",
       history: "Dating back to the late 18th century, Cobourg has evolved from a bustling port to a thriving community known for its Victorian-era architecture and scenic beauty. As a key stop on the Grand Trunk Railway, it attracted visitors seeking a retreat by the lake. Today, Cobourg preserves its historic charm while offering modern amenities and a range of cultural events, making it a cherished destination for both residents and visitors.",
-      image: 'media/cobourg.png', // Replace with the actual image path
-  
+      image: 'media/cobourg.png', 
       directions: {
         walking: 'Hike around 115 km using various routes, taking about 3 days with camping stops.',
         driving: 'Drive approximately 115 km via ON-401 E in about 1.5 hours, enjoying scenic landscapes.',
