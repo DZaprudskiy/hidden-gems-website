@@ -381,6 +381,7 @@ body {
 /* Header styles */
 header {
   font-family: 'Oswald', sans-serif;
+  text-size-adjust: 80%;
   background-color: var(--atomic-steel-blue);
   background-image: url(../media/headerbackground.png);
   background-size: cover;
@@ -401,7 +402,7 @@ nav {
   display: block;
   width: 100%;
   text-align: center;
-  text-size-adjust: 80%;
+  
   background-color: var(--seagull-blue);
   padding: 10px 0;
 }
