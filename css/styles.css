@@ -30,8 +30,7 @@
     background-color: var(--atomic-steel-blue);
     background-image: url(../media/headerbackground.png);
     background-size: cover;
-    background-position-y: -160px;
-    height: 200px;
+    background-position-y: center;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -381,12 +380,10 @@ body {
 /* Header styles */
 header {
   font-family: 'Oswald', sans-serif;
-  text-size-adjust: 80%;
   background-color: var(--atomic-steel-blue);
   background-image: url(../media/headerbackground.png);
   background-size: cover;
-  background-position-y: -160px;
-  height: 150px;
+  background-position-y: center;
   color: #fff;
   padding: 20px;
   text-align: center;
