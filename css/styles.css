@@ -9,7 +9,7 @@
   --plum-violet: #DCD5DC;
 }
 
-@media (min-width: 501px) {  
+@media (min-width: 551px) {  
 
   /* General styles */
   body {
@@ -365,7 +365,7 @@
 
 
 /* Mobile Styles (max-width: 500px) */
-@media (max-width: 500px) {
+@media (max-width: 550px) {
 /* General styles */
 body {
   font-family: 'Enriqueta', serif;
